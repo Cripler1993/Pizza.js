@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./пицца.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body class="body">
+    <header>
+      <div class="btn__row">
+        <button class="categ__btn active">все</button>
+        <button class="categ__btn">пицца</button>
+        <button class="categ__btn">завтраки</button>
+        <button class="categ__btn">коктейли</button>
+        <button class="categ__btn">десерты</button>
+      </div>
+
+      <div>
+        цена<select class="filter__price" name="" id="">
+          <option value="min">по убыванию</option>
+          <option value="max">по возрастанию</option>
+        </select>
+      </div>
+      <div>
+        в алфавитном порядке<select class="filter__alphabet" name="" id="">
+          <option value="min">от А до Я</option>
+          <option value="max">от Я до А</option>
+        </select>
+      </div>
+      <div class="bin__btn">
+        <button>корзина (<span class="quantity__value">0</span>)</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <!-- <div class="product">
+        <div class="product__img">
+          <img
+            src="https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_366x366.webp"
+            alt=""
+          />
+        </div>
+        <div class="product__name">Жюльен</div>
+        <div class="product__description">
+          Цыпленок, шампиньоны, сливочный соус с грибами, красный лук, чеснок,
+          моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо
+        </div>
+        <div class="product__info">
+          <p class="price">469р</p>
+          <button class="product__btn">выбрать</button>
+        </div>
+      </div> -->
+      </div>
+    </main>
+    <div class="modal__wrapper disable__modalWrapper">
+      <div class="bin">
+        <div class="modal__close">
+          <i class="uil uil-times"></i>
+        </div>
+        <div class="bin__quantity">
+          <p>
+            <span class="quantity__value">3</span> товара на
+            <span class="summ__value">664</span>р
+          </p>
+        </div>
+        <div class="bin__column">
+          <!-- <div class="bin__product">
+            <div class="bin__top">
+              <div class="bin__flex">
+                <img
+                  src="https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_366x366.webp"
+                  alt=""
+                />
+                <p>жюльен</p>
+              </div>
+              <div class="bin__delete">
+                <i class="uil uil-times uil-del"></i>
+              </div>
+            </div>
+            <p class="bin__price">169р</p>
+          </div> -->
+        </div>
+        <div class="purchase">
+          <button>оформить заказ</button>
+        </div>
+      </div>
+    </div>
+    <script src="./пицца.js"></script>
+  </body>
+</html>
