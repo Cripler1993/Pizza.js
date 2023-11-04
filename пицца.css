@@ -24,6 +24,13 @@ header {
   border-radius: 9999px;
   cursor: pointer;
 }
+.filter {
+  font-size: 20px;
+}
+.filter select {
+  border: 2px solid rgb(209, 87, 0);
+  padding: 5px;
+}
 
 .bin__btn {
   position: absolute;
@@ -61,6 +68,10 @@ header {
 }
 .product img {
   max-width: 210px;
+  transition: all 0.8s ease 0s;
+}
+.product img:hover {
+  transform: scale(1.1, 1.1);
 }
 .product__name {
   font-size: 20px;
